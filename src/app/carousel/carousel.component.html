@@ -1,1 +1,35 @@
-<p>carousel works!</p>
+<div class="container-fluid">
+    <h1>
+        Carousel Component
+    </h1>
+    <h2>Here comes the slider!</h2>
+    <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+            <div class="wrapper">
+                <img [src]="images[0]" alt="Sylt way">
+            </div>
+            <div class="carousel-caption">
+                <h3>Where it begins</h3>
+                <p> a long way to go </p>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="wrapper">
+                <img [src]="images[1]" alt="Sylt sea">
+            </div>
+            <div class="carousel-caption">
+                <h3>Until the end</h3>
+                <p> Never give up</p>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="wrapper">
+                <img [src]="images[2]" alt="nationalparc">
+            </div>
+            <div class="carousel-caption">
+                <h3>To the top</h3>
+                <p>for the win</p>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
