@@ -3,10 +3,10 @@ api_version: 1
 threadsafe: true
 handlers:
 - url: /
-  static_files: dist/index.html
-  upload: dist/index.html
+  static_files: dist/som-intro/index.html
+  upload: dist/som-intro/index.html
 - url: /
-  static_dir: dist
+  static_dir: dist/som-intro
 
 skip_files:
   - e2e/
