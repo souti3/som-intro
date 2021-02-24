@@ -11,3 +11,8 @@ ngb-carousel .wrapper {
     bottom: 0;
     right: 0;
   }
+
+  .carousel-caption {
+    color: white;
+    font-family: 'Trebuchet MS';
+  }

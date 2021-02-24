@@ -9,7 +9,7 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 })
 export class CarouselComponent implements OnInit {
 
-  images = ['../../assets/images/sl1.jpg', '../../assets/images/sl2.jpg', '../../assets/images/sl3.jpg']
+  images = ['../../assets/images/sl1.jpg', '../../assets/images/sl2.jpg', '../../assets/images/sl4.jpg']
 
   constructor(config: NgbCarouselConfig) {
     config.interval = 2000;
